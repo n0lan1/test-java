@@ -6,6 +6,7 @@ public class Select {
 
     private Connection connect() {
         Connection conn = null;
+        //changesss
         try {
             conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/somedb", "someuser", "somepass");
             System.out.println("Connection to MariaDB is established");
